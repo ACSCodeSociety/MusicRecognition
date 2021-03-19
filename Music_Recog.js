@@ -10,7 +10,7 @@ let classifier;
 let label = 'listening...';
 
 // Teachable Machine model URL:
-let soundModel = './my_model/';
+let soundModel = 'https://teachablemachine.withgoogle.com/models/h9QJmxKcG/';
 
 
 function preload() {
