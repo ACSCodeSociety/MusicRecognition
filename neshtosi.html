@@ -28,7 +28,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(320, 240);
+  createCanvas(640, 480);
+  canvas.style = "position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; margin: auto; border:2px solid blue";
   // Start classifying
   // The sound model will continuously listen to the microphone
   classifier.classify(gotResult);
